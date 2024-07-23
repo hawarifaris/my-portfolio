@@ -1,0 +1,258 @@
+/* Reset default margin and padding for better control */
+/* Reset default margin and padding for better control */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling for body */
+body {
+    background-color: #1d1f24; /* Dark background */
+    color: #f1f1f1; /* Light text */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding-top: 80px; /* Ensure content is not hidden under the fixed header */
+    margin: 0;
+}
+
+/* Styling for header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Styling for logo */
+.logo {
+    font-size: 30px;
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling for navbar */
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #00aaff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar a:hover {
+    background-color: #00aaff;
+    color: #fff;
+}
+
+/* Styling for hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 40px;
+    background-color: #101621;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+.hero p {
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    background-color: #00aaff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #007acc;
+}
+
+/* Styling for hero image */
+.hero-image {
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 500px; /* Ensure the image fits nicely */
+}
+
+/* About Section */
+.about {
+    padding: 100px 40px;
+    background-color: #1d1f24;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ddd;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 100px 40px;
+    background-color: #101621;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #00aaff;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #1d1f24;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 200px;
+}
+
+.project h3 {
+    margin: 15px 0;
+    color: #00aaff;
+}
+
+.project p {
+    color: #ddd;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+.contact {
+    padding: 100px 40px;
+    background-color: #282c34;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact label {
+    font-size: 18px;
+    text-align: left;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #007acc;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    background-color: #101621;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+ 
+
+
+
