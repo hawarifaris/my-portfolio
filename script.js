@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', () => {
     // Scroll to section
     const links = document.querySelectorAll('.navbar a');
